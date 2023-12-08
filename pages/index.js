@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Hero from './Hero'
 
 
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
         <title>Hibir Ethiopia</title>
       </Head>
       <main className={styles.main}>
-        Home
+        <Hero />
       </main>
     </>
   )
