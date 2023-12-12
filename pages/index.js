@@ -2,7 +2,9 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Hero from './Hero'
 import Search from './Search'
-import Popular from './Popular'
+import PopularPkg from './PopularPkg'
+import PopularDst from './PopularDst'
+import Articles from './Articles'
 
 
 export default function Home() {
@@ -14,7 +16,9 @@ export default function Home() {
       <main className={styles.main}>
         <Hero />
         <Search />
-        <Popular />
+        <PopularPkg />
+        <PopularDst />
+        <Articles />
       </main>
     </>
   )
